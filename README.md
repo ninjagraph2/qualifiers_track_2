@@ -1,3 +1,9 @@
+Для решения этой задачи мы сосредоточились на отборе признаков, что позволило нам выделить наиболее информативные характеристики для анализа.
+
+<p>Мы построили матрицу связности исключительно на основе выбранных признаков X. Далее мы применили кросс-валидацию для подбора оптимальных параметров модели логистической регрессии.</p>
+
+<p>В этом процессе мы использовали метод главных компонент (PCA) для снижения размерности данных. Также мы применили стандартное масштабирование (StandardScaler) и нормализацию по Z-score, что обеспечило равномерное распределение данных.</p>
+
 
 Functional Magnetic Resonance Imaging (fMRI) is a neuroimaging technique that enables the study of brain activity by detecting changes associated with blood flow. Unlike conventional MRI, which provides static images of brain structures, fMRI captures dynamic changes related to neural activity. This technique capitalizes on the Blood Oxygen Level-Dependent (BOLD) signal, which varies with the level of blood oxygenation. Active brain regions consume more oxygen, leading to alterations in the magnetic properties of hemoglobin depending on its oxygenation state. fMRI detects these variations, allowing researchers to identify specific brain areas activated in response to various stimuli or tasks. The data generated are three-dimensional images of the brain, where each voxel corresponds to a time series depicting changes in blood oxygen levels over time, effectively producing a four-dimensional dataset. 
 
